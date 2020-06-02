@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CoronaApp</string>
+    <string name="str_covid_19_today">Covid-19 Today</string>
+    <string name="str_loading">Loading...</string>
+</resources>
