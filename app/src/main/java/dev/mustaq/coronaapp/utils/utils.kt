@@ -1,4 +1,4 @@
-package dev.mustaq.coronaapp.utils.coroutine
+package dev.mustaq.coronaapp.utils
 
 import dev.mustaq.coronaapp.enums.Status
 
@@ -12,7 +12,9 @@ data class Resource<out T> (
     val data: T? = null
 ) {
     companion object {
-        fun <T> success(data : T): Resource<T> = Resource(Status.SUCCESS, null, data)
-        fun <T> error(data : T?, message: String?) = Resource(Status.ERROR, message, data)
+        fun <T> success(data : T): Resource<T> =
+            Resource(Status.SUCCESS, null, data)
+        fun <T> error(data : T?, message: String?) =
+            Resource(Status.ERROR, message, data)
     }
 }

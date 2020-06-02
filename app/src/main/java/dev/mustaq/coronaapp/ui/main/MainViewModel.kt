@@ -4,7 +4,7 @@ import androidx.lifecycle.*
 import dev.mustaq.coronaapp.enums.Status
 import dev.mustaq.coronaapp.models.CoronaStatsModel
 import dev.mustaq.coronaapp.repository.CoronaRepository
-import dev.mustaq.coronaapp.utils.coroutine.Resource
+import dev.mustaq.coronaapp.utils.Resource
 import kotlinx.coroutines.launch
 
 

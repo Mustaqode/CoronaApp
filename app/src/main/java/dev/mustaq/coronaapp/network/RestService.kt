@@ -1,7 +1,7 @@
 package dev.mustaq.coronaapp.network
 
 import dev.mustaq.coronaapp.models.CoronaStatsModel
-import dev.mustaq.coronaapp.utils.coroutine.Resource
+import dev.mustaq.coronaapp.utils.Resource
 
 /**
  * Created by Mustaq Sameer on 02/06/20
